@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dinner</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="js-3.js"></script>
+</head>
+<body>
+    <form>
+    <h1>Calculator</h1><hr>
+    <input type="text" id="result" name="display" ><br>
+    <input type="button" id="sum" value="+" onclick="form.display.value+='+'">
+    <input type="button" id="sub" value="-" onclick="form.display.value+='-'">
+    <input type="button" id="mul" value="*" onclick="form.display.value+='*'">
+    <input type="button" id="div" value="/" onclick="form.display.value+='/'">
+
+   <button id="submit" onclick="oper(document.getElementById('result').value)">Submit</button>
+   </form>
+</body>
+</html>
